@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "@cybozu/eslint-config/presets/node-prettier",
+  extends: "@cybozu/eslint-config/presets/prettier",
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
