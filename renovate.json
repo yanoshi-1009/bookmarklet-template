@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base",
+    ":pinAllExceptPeerDependencies",
+    ":automergeMinor",
+    ":maintainLockFilesWeekly",
+    ":skipStatusChecks"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": "before 2am",
+  "labels": ["renovate"],
+  "lockFileMaintenance": {
+    "automerge": true
+  }
+}
