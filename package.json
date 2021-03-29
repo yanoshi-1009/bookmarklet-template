@@ -2,8 +2,10 @@
   "name": "nodejs-template",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {
+  "scripts": {
+    "build": "bookmarklet ./src/index.js ./dist/"
   },
+  "engines": {},
   "keywords": [],
   "repository": {
     "type": "git",
@@ -14,8 +16,11 @@
   "description": "This is my bookmarklet template.",
   "devDependencies": {
     "@cybozu/eslint-config": "12.0.1",
+    "bookmarklet": "^3.0.0",
     "eslint": "7.23.0",
     "eslint-loader": "4.0.2",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
   }
 }
