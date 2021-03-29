@@ -1,1 +1,1 @@
-# nodejs-template
+# bookmarklet-template

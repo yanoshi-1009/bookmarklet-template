@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": ">=12.0.0"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yanoshi-1009/nodejs-template"
+    "url": "https://github.com/yanoshi-1009/bookmarklet-template"
   },
   "author": "y.idakko@gmail.com",
   "license": "MIT",
-  "description": "This is my nodejs template.",
+  "description": "This is my bookmarklet template.",
   "devDependencies": {
     "@cybozu/eslint-config": "12.0.1",
     "eslint": "7.23.0",
