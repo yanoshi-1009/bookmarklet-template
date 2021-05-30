@@ -11,5 +11,11 @@
   "labels": ["renovate"],
   "lockFileMaintenance": {
     "automerge": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["@cybozu/eslint-config"],
+      "automerge": true
+    }
+  ]
 }
