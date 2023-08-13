@@ -8,6 +8,9 @@ module.exports = {
   },
   globals: {
     kintone: false,
-    garoon: false
+    garoon: false,
+    KintoneRestAPIClient: false,
+    axios: false,
+    Papa: false
   }
 };
