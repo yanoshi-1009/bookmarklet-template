@@ -5,7 +5,11 @@ export default [
   {
     languageOptions: {
       globals: {
-        kintone: "readonly"
+        kintone: "readonly",
+        garoon: "readonly",
+        KintoneRestAPIClient: "readonly",
+        axios: "readonly",
+        Papa: "readonly"
       }
     }
   },
