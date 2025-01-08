@@ -15,7 +15,7 @@
   "license": "MIT",
   "description": "This is my bookmarklet template.",
   "devDependencies": {
-    "@cybozu/eslint-config": "24.0.0-beta.0",
+    "@cybozu/eslint-config": "24.0.0-beta.1",
     "bookmarklet": "3.0.0",
     "eslint": "9.17.0",
     "prettier": "3.4.2"
